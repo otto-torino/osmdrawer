@@ -1,19 +1,20 @@
 {
-  "name": "geodrawer",
-  "version": "0.1.1",
-  "homepage": "https://github.com/abidibo/geodrawer",
+  "name": "osmdrawer",
+  "version": "0.1.0",
+  "homepage": "https://github.com/otto-torino/osmdrawer",
   "authors": [
     "abidibo <abidibo@gmail.com>"
   ],
-  "description": "Google Maps Drawer Library",
-  "main": "dist/geodrawer.min.js",
+  "description": "Open Street Map Drawer Library",
+  "main": "dist/osmdrawer.min.js",
   "moduleType": [
     "es6",
+    "es7",
     "globals"
   ],
   "keywords": [
     "maps",
-    "google-maps"
+    "open-street-map"
   ],
   "license": "MIT"
 }
