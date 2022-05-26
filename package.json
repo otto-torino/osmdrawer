@@ -1,6 +1,6 @@
 {
   "name": "osmdrawer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Open Street Map Drawer Library",
   "main": "osmdrawer.js",
   "scripts": {
