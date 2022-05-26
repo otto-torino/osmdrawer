@@ -2,7 +2,7 @@
 
 Hello folks, this is a js library designed to let an user easily draw shapes over an open street map and import/export them in order to make something useful, i.e. save them to a database engine.
 
-It uses the [leaflet](https://leafletjs.com/) library with the [mapbox](https://www.mapbox.com/) tiles.
+It uses the [leaflet](https://leafletjs.com/) library with the openstreetmap tiles.
 
 Its simplest usage scenario is when you need to geolocalize some entities and save such info in the database, along with all other stuff (name, description and so on...)
 
@@ -38,9 +38,8 @@ or use bower ;)
 
 ### How to
 
-Include the min library (`dist/osmdrawer.min.js`) in the head of your document or in the body, or load it async, it's up to you. Make sure to define earlier a global window prop called `OSM_TOKEN` containing the mapbox access token:
+Include the min library (`dist/osmdrawer.min.js`) in the head of your document or in the body, or load it async, it's up to you:
 
-    <script type="text/javascript">window.OSM_TOKEN = 'MYTOKEN';</script>
     <script type="text/javascript" src="bower_components/osmdrawer/dist/osmdrawer.min.js"></script>
 
 Define the map canvas container somewhere in the document:

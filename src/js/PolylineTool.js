@@ -1,5 +1,5 @@
 import L from 'leaflet'
-import Tool from 'Tool'
+import Tool from './Tool'
 
 /**
  * Open Street Map maps drawing polyline tool class. Provides methods to draw over the {@link Map} instance

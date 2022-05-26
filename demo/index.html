@@ -14,8 +14,8 @@ body {
   </head>
   <body>
     <script>window.OSM_TOKEN = 'pk.eyJ1Ijoib3R0b3NybCIsImEiOiJjanZwNnA0NTQwMW14NDNscTVxMzB3Nmt2In0.OSK-k5UDfV-Ci213Vkzd7w';</script>
-    <!-- <script type="text/javascript" src="http://localhost:8080/dist/osmdrawer.min.js"></script> -->
-    <script type="text/javascript" src="../dist/osmdrawer.min.js"></script>
+    <script type="text/javascript" src="http://localhost:8080/dist/osmdrawer.min.js"></script>
+    <!-- <script type="text/javascript" src="../dist/osmdrawer.min.js"></script> -->
     <div style="margin: auto; width: 70%;">
       <h1>geodrawer base demo</h1>
       <p>
@@ -31,7 +31,7 @@ body {
       </div>
 
       <h2>js code:</h2>
-      <pre class="prettyprint linenums">
+      <pre class="prettyprint linenums" style="overflow: auto">
 var cb = function () {
   var mymap = new OpenStreetMapDrawer.Map('#map-canvas', {
     tools: {

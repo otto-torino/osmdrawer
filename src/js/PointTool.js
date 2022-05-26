@@ -1,5 +1,5 @@
 import L from 'leaflet'
-import Tool from 'Tool'
+import Tool from './Tool'
 
 /**
  * Open Street Map drawing point tool class. Provides methods to draw points over the {@link Map} instance.

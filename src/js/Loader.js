@@ -1,4 +1,4 @@
-import Dispatcher from 'EventDispatcher'
+import Dispatcher from './EventDispatcher'
 
 /**
  * Library loader

@@ -1,4 +1,4 @@
-import {sprintf} from 'utils'
+import {sprintf} from './utils'
 
 /**
  * Drawing tool class.

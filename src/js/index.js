@@ -1,13 +1,13 @@
 import 'babel-polyfill';
 import 'leaflet-defaulticon-compatibility'
-import 'Leaflet.Editable'
-import Dispatcher from 'EventDispatcher'
-import Loader from 'Loader'
-import Map from 'Map'
-import PointTool from 'PointTool'
-import PolylineTool from 'PolylineTool'
-import PolygonTool from 'PolygonTool'
-import CircleTool from 'CircleTool'
+import './Leaflet.Editable'
+import Dispatcher from './EventDispatcher'
+import Loader from './Loader'
+import Map from './Map'
+import PointTool from './PointTool'
+import PolylineTool from './PolylineTool'
+import PolygonTool from './PolygonTool'
+import CircleTool from './CircleTool'
 
 require('../scss/base.scss')
 

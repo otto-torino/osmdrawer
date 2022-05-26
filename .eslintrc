@@ -1,23 +1,19 @@
 {
-  "parser"  : "babel-eslint",
   "extends" : [
     "standard"
-  ],
-  "plugins" : [
-    "flow-vars"
   ],
   "env"     : {
     "browser" : true
   },
   "globals" : {
-    "$": {},
-    "jQuery": {},
-    "OpenStreetMapDrawer": {}
+    "$": "readonly",
+    "jQuery": "readonly",
+    "OpenStreetMapDrawer":"readonly" 
   },
   "rules": {
     "semi" : [2, "never"],
     "max-len": [2, 120, 2],
-    "flow-vars/define-flow-type": 1,
-    "flow-vars/use-flow-type": 1
+    "quotes": "off",
+    "comma-dangle": ["warning", "always"],
   }
 }
