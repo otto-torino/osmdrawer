@@ -14,6 +14,13 @@ module.exports = {
     filename: 'osmdrawer.min.js',
   },
   devtool: 'source-map',
+  devServer: {
+    static: {
+      directory: path.join(__dirname),
+    },
+    compress: true,
+    port: 8080,
+  },
   optimization: {
     minimize: true,
     minimizer: [new TerserPlugin()],
@@ -38,19 +45,12 @@ module.exports = {
         loader: 'json',
       },
       {
-        test: /\.svg(\?.*)?$/,
-        loader: 'url-loader',
-        options: {
-          limit: 10000,
-          mimetype: 'image/svg+xml',
-        }
+        test: /\.svg/,
+        type: 'asset/inline',
       },
       {
         test: /\.(png|jpg)$/,
-        loader: 'url-loader',
-        options: {
-          limit: 8192,
-        }
+        type: 'asset/inline',
       },
     ],
   },
