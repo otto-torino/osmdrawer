@@ -32,9 +32,9 @@ Just download or clone the repo
 
     $ git clone https://github.com/otto-torino/osmdrawer.git
 
-or use bower ;)
+or use npm ;)
 
-    $ bower install osmdrawer
+    $ npm i osmdrawer
 
 ### How to
 
