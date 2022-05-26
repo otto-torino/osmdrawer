@@ -119,7 +119,8 @@ To start development:
 
     $ npm run dev
 
-A server is started on http://localhost/8080, which serves the root directory. No need to run it again, changes in files are detected and the bundle is re-generated automatically, just reload the page.
+A server is started on http://localhost/8080, which serves the root directory. No need to run it again, changes in files are detected and the bundle is re-generated automatically, just reload the page.    
+The demo pages are served on http://localhost:8080/demo/
 
 To compile for production:
 

@@ -43,21 +43,10 @@ const Loader = {
    * @memberof Loader
    */
   load: function () {
-    this.checkToken()
     this.requirejQuery(() => {
       console.info('osmdrawer: library is ready')
       Dispatcher.emit('onDrawerLoaded')
     })
-  },
-  /**
-   * Checks if the MapBox token in set
-   * @memberof Loader
-   */
-  checkToken: function () {
-    if (!window.OSM_TOKEN) {
-      console.info('open-street-map-drawer: window.OSM_TOKEN must be set at this point!')
-      throw new Error('Missing MapBox token')
-    }
   },
   /**
    * Checks if jQuery is loaded, if not loads it, and then execute the cb
